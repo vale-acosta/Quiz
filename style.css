@@ -1,0 +1,79 @@
+
+
+*{
+    font-family:'Fira Sans';
+    color: white;
+}
+h1{
+    color:#E6C229 ;
+    font-weight: 800;
+    margin-left: 3%;
+}
+h3{
+    font-weight: 500;
+    width: 70%;
+    margin-right: 3%;
+}
+h4{
+    font-weight: 400;
+}
+label{
+    font-weight: 300;
+}
+
+#coso{
+    display: flex;
+    justify-content: center;
+    background-color:#6610f2 ;
+    
+}
+
+#q1, #q2, #q3, #q4{
+    color: white;
+    background-color: #6610f2;
+    border-radius: 8px;
+    width: 35%;
+    margin-inline: 6%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 1rem;
+}
+
+#quests{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#submit{
+    padding: 1% 5%;
+    color: #6610f2;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+
+#submit:hover{
+    color: white;
+    background-color: #6610f2;
+}
+
+.dog{
+    width: 500px;
+    height: 400px;   
+    border-radius: 8px;
+    margin-bottom: 3%
+}
+
+#container{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="radio"]{
+    padding: 10px;
+    cursor: pointer;
+    width: 60px;
+}
